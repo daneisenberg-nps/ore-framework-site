@@ -7,11 +7,19 @@ Operational Resilience Engineering**
 
 Operational Resilience Engineering (ORE) is a developing framework for
 modeling vulnerability, resilience, system performance, and intervention
-choices in critical operational systems.
+choices in critical engineering systems.
 
 ORE connects operations research and resilience engineering to examine how
 system states, performance boundaries, constraints, decision spaces, and
 interpretive perspectives shape operational outcomes.
+
+ORE treats resilience and vulnerability as related but distinct analytical
+spaces. It develops explicit links among system state, performance,
+operational boundaries, feasible interventions, and the perspectives through
+which system performance and decision options are interpreted.
+
+For an introduction to the framework, begin with :doc:`overview`; for its
+theoretical structure, see :doc:`theory`.
 
 Current status
 --------------
@@ -34,4 +42,10 @@ Research directions
 
 .. toctree::
    :maxdepth: 1
-   :caption: Research program
+   :caption: Explore ORE
+
+   overview
+   foundations
+   theory
+   research-path
+   artifacts

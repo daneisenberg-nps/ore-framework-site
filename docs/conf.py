@@ -15,7 +15,9 @@ html_title = "Operational Resilience Engineering (ORE)"
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = ["sphinx.ext.mathjax", "sphinxcontrib.bibtex"]
+
+bibtex_bibfiles = ["references.bib"]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
