@@ -3,7 +3,21 @@ Artifacts
 
 This page indexes citable research artifacts related to Operational Resilience
 Engineering (ORE), including journal articles, preprints, technical notes,
-software, data, and presentations.
+software, data, and presentations. 
+
+Citing ORE
+----------
+
+If you use the Operational Resilience Engineering website, its conceptual
+organization, or its evolving research framework, please cite the website as:
+
+Eisenberg, Daniel A. (2026). *Operational Resilience Engineering* [Website].
+https://ore-framework.org. Version 0.1.0.
+
+For a specific theoretical result, model, or empirical claim, cite the
+corresponding paper or technical artifact listed below rather than the website
+alone.
+
 
 Published articles
 ------------------

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use or build on Operational Resilience Engineering, please cite this website."
+title: "Operational Resilience Engineering"
+type: website
+authors:
+  - family-names: Eisenberg
+    given-names: Daniel A.
+    affiliation: Naval Postgraduate School
+website: "https://ore-framework.org"
+repository-code: "https://github.com/daneisenberg-nps/ore-framework-site"
+license: "MIT"
+date-released: 2026-10-03
+version: "0.1.0"
+abstract: "Operational Resilience Engineering is a developing framework connecting vulnerability analysis, resilience engineering, operations research, and control theory."
