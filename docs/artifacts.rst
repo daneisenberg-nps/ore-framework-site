@@ -36,11 +36,11 @@ performance.
 
 DOI: `10.1007/s10669-026-10142-6 <https://doi.org/10.1007/s10669-026-10142-6>`_
 
-Current manuscript
-------------------
+Current manuscripts
+-------------------
 
-Towards a theory of quantitative vulnerability analysis for engineering systems
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Quantitative vulnerability analysis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Eisenberg, Daniel, and David Alderson. 2026. "Towards a Theory of
 Quantitative Vulnerability Analysis for Engineering Systems."
