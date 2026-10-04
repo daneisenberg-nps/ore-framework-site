@@ -1,49 +1,95 @@
 Overview
 ========
 
+Operational Resilience Engineering
+----------------------------------
+
 Operational Resilience Engineering (ORE) is a developing research framework
-that connects operations research and resilience engineering.
-
-ORE asks how critical operational systems can be represented, evaluated, and
-improved when they encounter disruption, changing demands, uncertain
-conditions, and limits in available adaptive capacity.
-
-The framework focuses on the relationships among:
-
-* System states and transitions.
-* Performance values and operational boundaries.
-* Vulnerability and resilience as related but distinct analytical spaces.
-* Feasible designs, strategies, and interventions.
-* Interpretive perspectives that shape what is treated as operational,
-  degraded, acceptable, or in need of change.
-
-ORE is intended to support formal analysis of critical infrastructure and
-other interdependent systems while retaining the fact that operational
-judgment, constraints, and perspective shape decisions.
-
-The core formulation
---------------------
+for understanding and improving engineering systems under disturbance,
+uncertainty, surprise, and changing operational demands.
 
 .. centered:: Operations Research + Resilience Engineering = Operational Resilience Engineering
 
-ORE uses operations research to make decision spaces, constraints, feasible
-actions, and performance consequences explicit. It uses resilience engineering
-to examine how systems continue, stretch, recover, and change when confronted
-with disruption and surprise.
+ORE connects vulnerability analysis, resilience engineering, operations
+research, and control theory. It is intended for critical infrastructure and
+other complex engineering systems in which performance depends on technical,
+human, organizational, and socio-technical processes.
 
 The framework
 -------------
 
-ORE develops a paired account of vulnerability and resilience.
+ORE is organized around three linked but distinct analytical domains:
 
-Vulnerability concerns the conditions, boundaries, constraints, and
-interpretations through which a system may become unable to sustain acceptable
-operation. Resilience concerns the capacities and interventions through which
-a system can preserve, extend, recover, or improve acceptable operation.
+.. centered:: Vulnerability → Resilience → Control
 
-These concepts are mutually constitutive: how a system's vulnerability is
-defined shapes what counts as resilience, and an account of resilience reveals
-which vulnerabilities matter for a given operational perspective.
+**Vulnerability** concerns a system's susceptibility to undesirable change.
+It identifies relevant scenarios, system states, likelihood information,
+consequences, operational boundaries, and the analytical perspectives used to
+evaluate them.
 
-The :doc:`theory` page introduces the two \(2 \times 2\) frameworks that
-organize this developing formulation.
+**Resilience** concerns the capacities, strategies, and engineering designs
+through which a system can preserve, extend, recover, or improve acceptable
+performance under disturbance.
+
+**Control** concerns the continuing processes through which systems sense
+conditions, anticipate future challenges, act through feasible interventions,
+and learn from resulting performance.
+
+This sequence is analytical rather than chronological. Vulnerability does not
+occur only before a disruption, resilience does not occur only during or after
+a disruption, and control is not merely a final implementation step. Together,
+they describe how a system can be evaluated, improved, and managed over time.
+
+From data to decisions
+----------------------
+
+A central ORE principle is:
+
+.. centered:: Data → Perspective → Decisions
+
+Engineering-system data do not independently determine a decision. Analysts
+must first interpret information about system states, likelihoods,
+consequences, performance, constraints, and feasible actions. That
+interpretation establishes a perspective through which vulnerabilities,
+resilience strategies, and control actions can be evaluated.
+
+For example, the same vulnerability data can support distinct perspectives on
+risk, reliability, adversary, and safety. Those perspectives can preserve
+different information, prioritize different system conditions, and recommend
+different engineering designs. ORE therefore treats perspective as an explicit
+part of quantitative analysis rather than an implicit assumption.
+
+Current focus
+-------------
+
+The present formal foundation of ORE is quantitative vulnerability analysis.
+The developing theory defines a vulnerability space composed of scenarios,
+likelihood information, and consequence information:
+
+.. math::
+
+   \mathcal{V} = (S,L,C).
+
+Within this framework, risk is one perspective on vulnerability rather than
+the general category for all vulnerability analysis. Reliability, adversary,
+and safety are likewise treated as distinct perspectives that can reveal
+different engineering-system concerns and decision tradeoffs.
+
+Future ORE work will connect these vulnerability perspectives to a formal
+resilience framework organized around robustness, rebound, extensibility, and
+evolvability, and to a control framework organized around sensing,
+anticipating, acting, and learning.
+
+Navigating ORE
+--------------
+
+* :doc:`foundations` describes the research traditions and conceptual
+  distinctions informing ORE.
+
+* :doc:`theory` presents the developing vulnerability, resilience, and control
+  architecture.
+
+* :doc:`research-path` lists anticipated research outputs.
+
+* :doc:`artifacts` will provide citable papers, technical notes, code, and
+  other released research materials.

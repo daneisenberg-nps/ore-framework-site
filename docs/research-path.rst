@@ -1,28 +1,56 @@
 Research Path
 =============
 
-Operational Resilience Engineering is being developed through a sequence of
-linked theoretical, methodological, and applied efforts.
+Operational Resilience Engineering is an active research program organized
+around the linked sequence:
 
-Near-term work
---------------
+.. centered:: Vulnerability → Resilience → Control
 
-* Specify vulnerability and resilience spaces and their relation.
-* Formalize system state, performance, operational boundaries, and feasibility.
-* Develop the paired \(2 \times 2\) frameworks for resilience and
-  vulnerability.
-* Clarify the role of interpretation and perspective in decision models.
-* Construct worked examples for critical infrastructure systems.
+Current work
+------------
 
-Planned research outputs
-------------------------
+The current foundational work is:
 
-* Foundational conceptual and technical notes.
-* Formal mathematical definitions and propositions.
-* Infrastructure case studies and computational demonstrations.
-* Reproducible code and model artifacts.
-* Preprints and peer-reviewed publications.
+* *Towards a Theory of Quantitative Vulnerability Analysis for Engineering
+  Systems* — a manuscript by Daniel Eisenberg and David Alderson.
 
-This roadmap is intentionally provisional. The site will distinguish clearly
-between established foundations, current working formulations, and released
-citable research artifacts.
+The manuscript develops a quantitative vulnerability space,
+:math:`\mathcal{V} = (S,L,C)`, and distinguishes risk, reliability,
+adversary, and safety as separate perspectives on engineering-system
+vulnerability.
+
+The manuscript is being prepared for public hosting and subsequent peer-review
+submission. Its release status, permanent identifier, and recommended citation
+will be listed on :doc:`artifacts` when available.
+
+Anticipated research outputs
+----------------------------
+
+* A public preprint and peer-reviewed manuscript on quantitative vulnerability
+  analysis for engineering systems.
+
+* Formal theory describing vulnerability spaces, likelihood and consequence
+  interpretations, and the relationship among risk, reliability, adversary,
+  and safety perspectives.
+
+* A formal resilience framework relating robustness, rebound, extensibility,
+  and evolvability to state stability and operational boundaries.
+
+* Mathematical models of the relationship between vulnerability and
+  resilience, including their distinct but mutually constitutive roles in
+  engineering-system decision-making.
+
+* Control-theory formulations of resilient performance that move beyond
+  system-performance and rebound curves.
+
+* Models of sensing, anticipating, acting, and learning as processes of
+  resilient control.
+
+* Mathematical and computational examples for critical-infrastructure systems,
+  including power and energy-system applications.
+
+* Decision models for comparing resilience interventions across multiple
+  vulnerability perspectives and resilience strategies.
+
+* Technical notes, preprints, journal articles, presentations, and
+  reproducible computational artifacts.
