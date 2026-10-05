@@ -56,19 +56,30 @@ Current manuscripts
 Quantitative vulnerability analysis
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Eisenberg, Daniel, and David Alderson. 2026. "Towards a Theory of
-Quantitative Vulnerability Analysis for Engineering Systems."
+Eisenberg, Daniel A., and David L. Alderson. 2026. "Towards a Theory of
+Quantitative Vulnerability Analysis for Engineering Systems." *arXiv*
+preprint arXiv:2610.02424.
 
-This manuscript develops a quantitative theory of vulnerability analysis for
+This paper develops a quantitative theory of vulnerability analysis for
 engineering systems. It defines a vulnerability space,
 :math:`\mathcal{V} = (S,L,C)`, and treats risk, reliability, adversary, and
 safety as distinct perspectives produced through different interpretations of
 likelihood and consequence information.
 
-The manuscript is currently being prepared for public preprint hosting and
-subsequent submission to *Risk Analysis*. This entry will be updated with a
-permanent preprint identifier, DOI, recommended citation, and publication
-status when available.
+Preprint: `arXiv:2610.02424 <https://arxiv.org/abs/2610.02424>`_
+
+DOI: `10.48550/arXiv.2610.02424 <https://doi.org/10.48550/arXiv.2610.02424>`_
+
+Recommended citation
+~~~~~~~~~~~~~~~~~~~~
+
+Eisenberg, Daniel A., and David L. Alderson. 2026. "Towards a Theory of
+Quantitative Vulnerability Analysis for Engineering Systems." *arXiv*
+preprint arXiv:2610.02424. https://doi.org/10.48550/arXiv.2610.02424.
+
+The manuscript is available as a public preprint. It has not yet been
+peer-reviewed; any future journal-submission, review, and publication status
+will be added here when available.
 
 Planned artifacts
 -----------------

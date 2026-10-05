@@ -15,9 +15,8 @@ and learns as conditions change.
 
 The present vulnerability formulation is developed in
 *Towards a Theory of Quantitative Vulnerability Analysis for Engineering
-Systems*, a manuscript submitted to arXiv and intended for subsequent
-peer-review submission :cite:p:`eisenbergAlderson2026vulnerability`. The resilience and control formulations presented
-below are developing research directions.
+Systems*, available as an `arXiv preprint <https://arxiv.org/abs/2610.02424>`_
+:cite:p:`eisenbergAlderson2026vulnerability`.
 
 Vulnerability
 -------------
@@ -384,10 +383,12 @@ actions, and revise the system's future decision model through learning
 Research status
 ---------------
 
-The vulnerability-space theory and its four perspectives are described in the
-current manuscript, *Towards a Theory of Quantitative Vulnerability Analysis
-for Engineering Systems*. The manuscript is being prepared for public hosting
-and subsequent peer review.
+The vulnerability space theory and its four perspectives are described in
+*Towards a Theory of Quantitative Vulnerability Analysis for Engineering
+Systems*, available as arXiv:2610.02424
+:cite:p:`eisenbergAlderson2026vulnerability`. The paper is a public preprint;
+future peer-review and publication status will be recorded on
+:doc:`artifacts`.
 
 The resilience and control sections state the intended architecture of
 Operational Resilience Engineering. Their formal notation, propositions,

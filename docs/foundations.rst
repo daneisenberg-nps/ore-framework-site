@@ -54,9 +54,10 @@ interpreted and evaluated from a particular perspective.
 This distinction matters because a system can appear vulnerable in different
 ways depending on whether the analysis prioritizes expected consequence,
 probability of failure, plausible worst-case disruption, or the possibility of
-crossing an unacceptable operational boundary. The current formal treatment
-of these perspectives is described on the :doc:`theory` page and in the
-developing vulnerability-analysis manuscript.
+crossing an unacceptable operational boundary. The current formal treatment of these perspectives is described on the
+:doc:`theory` page and in *Towards a Theory of Quantitative Vulnerability
+Analysis for Engineering Systems*, available as arXiv:2610.02424
+:cite:p:`eisenbergAlderson2026vulnerability`.
 
 Risk, reliability, adversary, and safety
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
