@@ -1,56 +1,73 @@
 Research Path
 =============
 
-Operational Resilience Engineering is an active research program organized
-around the linked sequence:
+Anticipated outputs
+-------------------
+
+* Peer-reviewed publication of the quantitative vulnerability-analysis theory,
+  currently available as an
+  `arXiv preprint <https://arxiv.org/abs/2610.02424>`_.
+
+* A public preprint on quantitative resilient design for engineering systems,
+  currently in preparation.
+
+* Further research on the relationship between vulnerability perspectives and
+  resilience design perspectives.
+
+* Control-theory models connecting resilient design to sensing, anticipating,
+  acting, and learning.
+
+* Engineering-system examples and critical-infrastructure applications.
+
+* Technical notes, journal articles, presentations, and reproducible
+  computational artifacts.
+
+Long-term research directions
+-----------------------------
+
+The ORE research program is informed by two broader theoretical motivations:
+Vulnerodynamics and perspective-aware decision theory. These are exploratory
+efforts rather than completed theories. Their formal definitions and results
+will be released through future technical notes and papers.
+
+Vulnerodynamics
+~~~~~~~~~~~~~~~
 
 .. centered:: Vulnerability → Resilience → Control
 
-Current work
-------------
+Vulnerodynamics motivates the analytical organization of ORE around
+vulnerability, resilience, and control. It is a proposed research direction
+inspired by stochastic thermodynamics and systems theory.
 
-The current foundational work is:
+It investigates how vulnerability changes, is redistributed, or is transferred
+across interacting systems, and how those changes depend on adaptive capacity,
+resilient design, and control processes.
 
-* *Towards a Theory of Quantitative Vulnerability Analysis for Engineering
-  Systems* — a manuscript by Daniel Eisenberg and David Alderson.
+The motivating questions concern the resource requirements and limits of
+managing undesirable change: when does an intervention reduce vulnerability,
+when does it relocate vulnerability, and what capacity is required to achieve
+a desired change?
 
-The manuscript develops a quantitative vulnerability space,
-:math:`\mathcal{V} = (S,L,C)`, and distinguishes risk, reliability,
-adversary, and safety as separate perspectives on engineering-system
-vulnerability.
+Thermodynamic ideas provide a source of hypotheses and mathematical
+inspiration, not an assertion that engineering vulnerability obeys established
+physical conservation laws. Formal quantities, assumptions, and bounds remain
+to be developed.
 
-The manuscript is being prepared for public hosting and subsequent peer-review
-submission. Its release status, permanent identifier, and recommended citation
-will be listed on :doc:`artifacts` when available.
+Perspective-aware decision theory
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Anticipated research outputs
-----------------------------
+.. centered:: Data → Perspective → Decisions
 
-* A public preprint and peer-reviewed manuscript on quantitative vulnerability
-  analysis for engineering systems.
+Perspective-aware decision theory (PADT) motivates ORE's emphasis on explicit
+interpretation before decision-making. It investigates how the interpretation
+of system data shapes the construction of a decision model, not merely the
+selection of an alternative within an existing model.
 
-* Formal theory describing vulnerability spaces, likelihood and consequence
-  interpretations, and the relationship among risk, reliability, adversary,
-  and safety perspectives.
+The motivating question is whether decision-making can be understood
+adequately without making the analyst's perspective explicit. Different
+interpretations can produce distinct evaluative structures, priorities, and
+recommended actions even when they begin with the same engineering-system
+data.
 
-* A formal resilience framework relating robustness, rebound, extensibility,
-  and evolvability to state stability and operational boundaries.
-
-* Mathematical models of the relationship between vulnerability and
-  resilience, including their distinct but mutually constitutive roles in
-  engineering-system decision-making.
-
-* Control-theory formulations of resilient performance that move beyond
-  system-performance and rebound curves.
-
-* Models of sensing, anticipating, acting, and learning as processes of
-  resilient control.
-
-* Mathematical and computational examples for critical-infrastructure systems,
-  including power and energy-system applications.
-
-* Decision models for comparing resilience interventions across multiple
-  vulnerability perspectives and resilience strategies.
-
-* Technical notes, preprints, journal articles, presentations, and
-  reproducible computational artifacts.
+This research will examine how perspectives are formed, how decisions depend
+on them, and what is required to compare or choose among perspectives.

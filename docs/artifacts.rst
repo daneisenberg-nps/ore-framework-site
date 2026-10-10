@@ -81,6 +81,16 @@ The manuscript is available as a public preprint. It has not yet been
 peer-reviewed; any future journal-submission, review, and publication status
 will be added here when available.
 
+Work in preparation
+-------------------
+
+A companion manuscript on quantitative resilient design for engineering
+systems is in preparation. It develops the resilience component of ORE and
+its relationship to engineering design decisions.
+
+The manuscript is not yet publicly available. A citation and permanent link
+will be added when the preprint is released.
+
 Planned artifacts
 -----------------
 

@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Ignore local workspaces and compiled extensions
+*.code-workspace
+*.vsix
+
+# Local VS Code settings
+.vscode/
+*.code-workspace

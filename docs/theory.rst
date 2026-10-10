@@ -247,84 +247,81 @@ distinct vulnerability perspectives.
 Resilience
 ----------
 
-Vulnerability and resilience are distinct, interacting, and mutually
-constitutive concepts. Vulnerability analysis can characterize the states,
-boundaries, likelihoods, consequences, and perspectives through which a system
-is susceptible to undesirable change. It does not by itself identify what
-capabilities, strategies, designs, or interventions should be created to
-maintain or improve system performance.
+ORE defines resilience as the ability of a system to manage undesirable
+change. Resilient design concerns the selection of engineering designs,
+actions, policies, or configurations intended to preserve or improve that
+ability.
 
-Resilience addresses that complementary question: how can an engineering
-system preserve, extend, recover, or improve acceptable performance under
-disturbance and changing conditions?
+Vulnerability and resilience are distinct but mutually constitutive concepts.
+Vulnerability analysis evaluates susceptibility to undesirable change.
+Resilient design evaluates what can be changed in the engineering system and
+what those changes are intended to achieve.
 
-ORE does not treat resilience as inverse of vulnerability, but instead it focuses on evaluating alternative designs, policies, configurations, and
-capabilities intended to change system performance in relation to disturbance Specifically, ORE organizes resilience into four perspectives on how new design can change system vulnerability along two dimensions:
+Design perspectives
+~~~~~~~~~~~~~~~~~~~
 
-* **Direction of change:** continuity or improvement.
-* **Analytical object:** state stability or the operational boundary.
+The developing framework distinguishes four perspectives on resilient design:
 
-State stability concerns whether current performance should be maintained or
-improved. Operational boundary concerns the feasible range of states, conditions, resources, and constraints within which acceptable operation can be sustained.
+* Robustness concerns maintaining intended operation by making operational
+  states more stable.
+* Rebound concerns recovery by making non-operational states less persistent.
+* Extensibility concerns changing available capacity or operational boundaries
+  so that a system can continue providing function under stressed or disrupted
+  conditions.
+* Evolvability concerns functional redesign and new capabilities that improve
+  future operation, including opportunities arising during non-operation,
+  repair, or reconfiguration.
 
-The developing ORE resilience framework is as follows:
+These perspectives distinguish changes in state stability from changes in
+operational boundaries and system function. They also make the interpretation
+of system performance explicit: identifying a system as operational or
+non-operational is part of the analysis, not simply an assumption that every
+performance measure resolves automatically.
 
-.. list-table:: Developing resilience framework
-   :header-rows: 1
-   :widths: 28 36 36
+Robustness and rebound remain important engineering design perspectives.
+Extensibility and evolvability address additional ways of managing undesirable
+change that cannot be captured adequately by resistance and recovery alone.
 
-   * -
-     - State Stability
-     - Operational Boundary
-   * - Continuity
-     - **Robustness**
+Relationship to established resilience research
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-       Maintaining acceptable performance in the current state despite
-       disturbance.
-     - **Extensibility**
-
-       Extending the feasible operational boundary or available adaptive
-       capacity beyond the current state.
-   * - Improvement
-     - **Rebound**
-
-       Improving performance in the current or recovered state following
-       disturbance.
-     - **Evolvability**
-
-       Changing the operator model, strategy space, constraints, or feasible
-       possibilities to improve future performance.
-
-This formulation is informed by Woods's four concepts of resilience:
+The framework is informed by Woods's four concepts of resilience:
 robustness, rebound, graceful extensibility, and sustained adaptability
-:cite:p:`woods2015,woods2018`. The ORE framework is a developing formal
-interpretation; it does not claim to reproduce Woods's theory or terminology
-exactly.
+:cite:p:`woods2015,woods2018`.
 
-Woods cautions against treating rebound and robustness as complete accounts of
-resilience, particularly when a system encounters surprise, approaches the
-limits of its ordinary adaptive capacity, or must remain capable of adapting
-through continuing change. ORE agrees that robustness and rebound alone are
-incomplete. However, it treats both as worthy engineering design strategies
-when the analytical objective concerns system stability. The intended
-contribution is to integrate these commonly applied state-stability strategies
-with boundary-oriented capabilities informed by Woods's treatment of graceful
-extensibility and sustained adaptability in the Theory of Graceful
-Extensibility (TGE) :cite:p:`woods2018`.
+ORE is a developing formal interpretation rather than a reproduction of
+Woods's terminology or theory. Its objective is to connect established
+resilience concepts to explicit engineering design questions, including what
+performance is desirable, what decisions are feasible, and what kinds of
+system change those decisions produce.
 
-**Extensibility** concerns the ability to preserve acceptable operation by
-stretching or extending available adaptive capacity when a system approaches
-or exceeds its established operational boundary. In the present ORE
-formulation, extensibility can make disruption or failure-mode operation less
-harmful without necessarily improving normal-operation performance.
+The work is also motivated by limitations of using rebound or
+system-performance curves as stand-alone models for engineering decisions
+:cite:p:`eisenberg2025rebound,demmer2026system`. Describing performance loss
+and recovery is not equivalent to specifying which design intervention should
+be selected.
 
-**Evolvability** concerns improvement in system function through changes to the
-operator model, strategy space, constraints, resources, or other conditions
-that expand or improve the system's future feasible possibilities. In the
-present formulation, evolvability differs from extensibility: rather than
-primarily reducing the consequences of a disrupted state, it uses information,
-experience, or capabilities generated through disruption to improve benefits
-during future normal operation.
+Relationship to vulnerability analysis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A vulnerability perspective and a resilience design perspective answer
+different questions. The former determines how susceptibility to undesirable
+change is evaluated; the latter determines what kinds of engineering change
+are being considered.
+
+ORE therefore does not present risk and resilience as competing alternatives.
+Vulnerability measures can inform resilient design without making risk,
+reliability, adversary, or safety synonymous with robustness, rebound,
+extensibility, or evolvability.
+
+Development status
+~~~~~~~~~~~~~~~~~~
+
+A companion manuscript on quantitative resilient design is in preparation.
+This page provides a conceptual introduction only. Formal definitions,
+decision models, worked examples, and research findings will be released with
+the public preprint.
+
 
 
 Control

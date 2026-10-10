@@ -27,9 +27,11 @@ It identifies relevant scenarios, system states, likelihood information,
 consequences, operational boundaries, and the analytical perspectives used to
 evaluate them.
 
-**Resilience** concerns the capacities, strategies, and engineering designs
-through which a system can preserve, extend, recover, or improve acceptable
-performance under disturbance.
+**Resilience** concerns a system's ability to manage undesirable change.
+Resilient design concerns the engineering decisions through which that ability
+can be preserved or improved. ORE distinguishes design perspectives focused on
+robustness, rebound, extensibility, and evolvability, rather than treating them
+as interchangeable strategies.
 
 **Control** concerns the continuing processes through which systems sense
 conditions, anticipate future challenges, act through feasible interventions,
@@ -59,6 +61,11 @@ different information, prioritize different system conditions, and recommend
 different engineering designs. ORE therefore treats perspective as an explicit
 part of quantitative analysis rather than an implicit assumption.
 
+The same principle applies to resilient design. Assessing how a system is
+operating and identifying what kinds of change are desirable are necessary
+steps in constructing a decision model. A numerical performance score alone
+does not specify which resilience strategy an engineer should pursue.
+
 Current focus
 -------------
 
@@ -75,10 +82,15 @@ the general category for all vulnerability analysis. Reliability, adversary,
 and safety are likewise treated as distinct perspectives that can reveal
 different engineering-system concerns and decision tradeoffs.
 
-Future ORE work will connect these vulnerability perspectives to a formal
-resilience framework organized around robustness, rebound, extensibility, and
-evolvability, and to a control framework organized around sensing,
-anticipating, acting, and learning.
+A companion theory of resilient design is under development. It examines how
+interpretations of system performance and available engineering decisions
+shape the selection of robustness, rebound, extensibility, and evolvability
+strategies.
+
+Future work will connect vulnerability analysis and resilient design to
+control processes organized around sensing, anticipating, acting, and
+learning. Detailed resilience formulations will be released with a public
+preprint.
 
 Navigating ORE
 --------------

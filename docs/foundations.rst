@@ -106,9 +106,13 @@ vulnerability perspective may impose tradeoffs relative to another.
 Resilience engineering
 ----------------------
 
-The second foundation of ORE is resilience engineering: the study of how
-systems continue to perform, adapt, and recover under changing conditions,
-disturbance, and surprise.
+The second foundation of ORE is resilience engineering. ORE uses resilience to
+mean a system's ability to manage undesirable change, and resilient design to
+mean the engineering decisions intended to preserve or improve that ability.
+
+This distinction connects resilience concepts to practical design questions:
+how is the system operating, what changes are possible, and what should those
+changes accomplish?
 
 Resilience is not treated here as a direct synonym for risk, reliability, or
 vulnerability. Vulnerability identifies conditions under which undesirable
@@ -171,9 +175,15 @@ concerns system stability. Its developing contribution is to integrate
 state-stability strategies with boundary-oriented capabilities informed by
 graceful extensibility and sustained adaptability.
 
-The :doc:`theory` page develops this interpretation through a resilience
-framework organized by continuity and improvement, and by state stability and
-operational boundary.
+ORE builds on these distinctions by examining how resilience concepts guide
+engineering design. Its developing framework treats robustness, rebound,
+extensibility, and evolvability as distinct design perspectives, with explicit
+attention to system performance, state stability, operational boundaries, and
+available interventions.
+
+The :doc:`theory` page provides a conceptual introduction. The detailed
+resilient-design formulation is under development and will be released with a
+public preprint.
 
 Surprise and infrastructure resilience
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -309,6 +319,11 @@ control design. It also makes visible the potential for blind spots: a model
 can support effective action within its perspective while omitting
 vulnerabilities, capabilities, or consequences that would be salient under
 another perspective.
+
+For resilient design, operations research also helps distinguish the
+assessment of current system performance from the selection of feasible
+interventions. An engineering decision model must make both its evaluative
+perspective and its intended mechanism of system change explicit.
 
 Relationship among the foundations
 ----------------------------------
